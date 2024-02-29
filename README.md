@@ -12,8 +12,8 @@ All commands start with the identifier `+`.
 | `+image <map_link>` | Generates an image preview of an osu!taiko map. |
 
 #### +image command
-The command uses [Chimu.moe API](https://chimu.moe/) to download maps. When requesting a preview image, the osu! map link should have both the map ID and difficulty ID visible. (e.g. `https://osu.ppy.sh/beatmapsets/827049#taiko/1733135`) WIP or graveyarded maps on osu! probably won't work as they aren't supported in the Chimu.moe API.
-The generated image displays changes in BPM or time signatures. The command is not implemented well, so refrain from requesting maps with unconventional or rapid timing point changes.
+This command uses [Chimu.moe API](https://chimu.moe/) to download maps. When requesting a preview image, the osu! map link should have both the map ID and difficulty ID visible. (e.g. `https://osu.ppy.sh/beatmapsets/827049#taiko/1733135`) WIP or graveyarded maps on osu! probably won't work as they aren't supported in the Chimu.moe API.
+The generated image displays changes in BPM or time signatures. Refrain from requesting maps with unconventional or rapid timing point changes.
 
 ![image](https://github.com/osutaiko/Tacobo/assets/87028262/9225781b-ebba-4bc5-8f22-4d26533630a4)
 
