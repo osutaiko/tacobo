@@ -8,7 +8,7 @@ All commands start with the identifier `+`.
 | Command | Description |
 | ------- | ----------- |
 | `+help` | Shows a list of all supported Tacobo commands. |
-| `+roll <end>` | Rolls a random integer from 1 to <end>. <end> = 100 by default. |
+| `+roll <end>` | Rolls a random integer from 1 to `end`. `end` = 100 by default. |
 | `+image <map_link>` | Generates an image preview of an osu!taiko map. |
 
 #### +image command
